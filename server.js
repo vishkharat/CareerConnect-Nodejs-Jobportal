@@ -43,8 +43,8 @@ const options = {
     },
     servers: [
       {
-              url: "http://localhost:8080",
-           // url: "https://nodejs-job-portal-app.onrender.com"
+              // url: "http://localhost:8080",
+            url: "https://careerconnect-nodejs-jobportal.onrender.com"
       },
     ],
   },
