@@ -9,7 +9,7 @@ const connectDB = async () => {
         .white
     );
   } catch (error) {
-    // console.log(`MongoDB Erorr ${error}`.bgRed.white);
+    console.log(`MongoDB Erorr ${error}`.bgRed.white);
   }
 };
 
