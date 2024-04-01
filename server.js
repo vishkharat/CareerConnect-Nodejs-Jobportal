@@ -82,8 +82,8 @@ app.use(errroMiddelware);
 const PORT = process.env.PORT || 8080;
 //listen
 app.listen(PORT, () => {
-  console.log(
-    `Node Server Running In ${process.env.DEV_MODE} Mode on port no ${PORT}`
-      .bgCyan.white
-  );
+  // console.log(
+  //   `Node Server Running In ${process.env.DEV_MODE} Mode on port no ${PORT}`
+  //     .bgCyan.white
+  // );
 });
